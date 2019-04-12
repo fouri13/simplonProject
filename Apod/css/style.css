@@ -1,0 +1,28 @@
+body{
+	background-color: #464646;
+}
+
+#head {
+	border: solid;
+	text-align: center;
+	color: #DAA520;
+	padding-bottom: 1em;
+
+}
+#frame{
+	margin:auto;
+	border:0px;
+}
+#explanation {
+	border-color: #8B0000;
+	color:	#DAA520;
+	text-align: center;
+	
+	border-width: 10em;
+	border-height: 30em;
+}
+img{
+	margin-left: 30em;
+	max-height: 35em;
+	max-width: 35em;
+}

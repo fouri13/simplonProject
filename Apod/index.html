@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="script/main.js"></script>
+	<script src="script/jquery-3.3.1.min.js"></script>
+
+
+
+	<title></title>
+</head>
+<body>
+	<!--	dans un cadre qui fait office de header je regroupe le titre de mon site mon input et mon bouton qui va lancer ma fonction			 -->
+	<div id="head" >
+		<h1 >Apod</h1>
+		<p>Choisir une date pour voir le media du jour</p>
+		<input id="date" type="date" min="2014-01-01" >
+	
+	<button onclick="getReq()" value="clickme">Click me</button>
+	</div>
+	
+		<!-- 	ici j' affiche  mon resultat		-->
+	<div id="api">
+			<p id="explanation"></p>
+	</div>
+	<div>
+	<img class="img-responsive" id="apodImg" alt=""/>
+
+	<iframe width="560" height="315" id="frame"></iframe>
+	</div>
+</body>
+</html>
